@@ -11,6 +11,7 @@
   inputs.src-nimvisa-0_1_4.ref   = "refs/tags/0.1.4";
   inputs.src-nimvisa-0_1_4.owner = "leeooox";
   inputs.src-nimvisa-0_1_4.repo  = "nimvisa";
+  inputs.src-nimvisa-0_1_4.dir   = "";
   inputs.src-nimvisa-0_1_4.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
